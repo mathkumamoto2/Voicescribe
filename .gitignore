@@ -1,0 +1,41 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Local configuration (never put secrets into VITE_* variables)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+
+# Model weights and cache
+models/
+.cache/
+*.onnx
+*.onnx_data
+*.safetensors
+
+# Private audio, video, and transcription data
+recordings/
+outputs/
+transcripts/
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.mp4
+*.mov
+*.webm
